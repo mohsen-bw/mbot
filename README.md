@@ -12,7 +12,7 @@ handler = WebhookHandler('ISI CHHANEL SCREET')
 2. sudo pip install line-bot-sdk
 3. sudo pip install flask
 4. curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
-5. git clone https://github.com/Aditmadzs/oalinebot
+5. git clone https://github.com/mohsen-bw/mbot
 6. EDIT TOKEN + SECRET DULU
 7. Buka folder git kalian
 ```shell＝
