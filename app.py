@@ -33,9 +33,9 @@ from linebot.models import (
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('ISI TOKEN OA KALIAN')
+line_bot_api = LineBotApi('mVBiJ+I7W4X9IbfxaAEai62BYY5Mfl7R/AKgpN0DVGrIqXFVHrksQCetTVwegNUPOxDYldg1cyc+rWtjU+34p+fDxEN6dFiW/gq6OSGj+6vOe0YkjtWvzMl2kEILyUCAKFbTx8vyENdoXN13DFJM6AdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
-handler = WebhookHandler('ISI CHHANEL SCREET')
+handler = WebhookHandler('a606f2ca66d60af4f08830d8bee13b6c')
 #===========[ NOTE SAVER ]=======================
 notes = {}
 
@@ -80,15 +80,15 @@ def handle_message(event):
                 actions=[
                     MessageTemplateAction(
                         label='Culum 1',
-                        text='/aditmadzs'
+                        text='/mosen.bw'
                     ),
                     MessageTemplateAction(
                         label='CULUM 2',
-                        text='/aditmadzs'
+                        text='/mosen.bw'
                     ),
                     MessageTemplateAction(
                         label='CULUM 3',
-                        text='/aditmadzs'
+                        text='/mosen.bw'
                     )
                 ]
             )
@@ -103,11 +103,11 @@ def handle_message(event):
                 columns=[
                     CarouselColumn(
                         title='ADD ME',
-                        text='Contact Aditmadzs',
+                        text='Contact mosen.bw',
                         actions=[
                             URITemplateAction(
                                 label='>TAP HERE<',
-                                uri='https://line.me/ti/p/~adit_cmct'
+                                uri='https://line.me/ti/p/~masih.00'
                             )
                         ]
                     ),
@@ -117,7 +117,7 @@ def handle_message(event):
                         actions=[
                             URITemplateAction(
                                 label='>TAP HERE!<',
-                                uri='http://line.me/ti/p/~adit_cmct'
+                                uri='http://line.me/ti/p/~masih.00'
                             )
                         ]
                     )
@@ -134,13 +134,13 @@ def handle_message(event):
                 size='full',
                 aspect_ratio='20:13',
                 aspect_mode='cover',
-                action=URIAction(uri='http://line.me/ti/p/~adit_cmct', label='label')
+                action=URIAction(uri='http://line.me/ti/p/~masih.00', label='label')
             ),
             body=BoxComponent(
                 layout='vertical',
                 contents=[
                     # title
-                    TextComponent(text='Aditmadzs', weight='bold', size='xl'),
+                    TextComponent(text='mosen.bw', weight='bold', size='xl'),
                     # review
                     BoxComponent(
                         layout='baseline',
@@ -172,7 +172,7 @@ def handle_message(event):
                                         flex=1
                                     ),
                                     TextComponent(
-                                        text='Tangerang, Indonesia',
+                                        text='Tangerang, Iran',
                                         wrap=True,
                                         color='#666666',
                                         size='sm',
@@ -213,7 +213,7 @@ def handle_message(event):
                     ButtonComponent(
                         style='link',
                         height='sm',
-                        action=URIAction(label='Aditmadzs', uri="https://line.me/ti/p/~adit_cmct")
+                        action=URIAction(label='mosen.bw', uri="https://line.me/ti/p/~masih.00")
                     )
                 ]
             ),
